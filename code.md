@@ -24,58 +24,32 @@ def caesarCipherEncode(sentence, leap):
 def goodness(sentence):
     sum = 0
     for thing in sentence:
-        if thing == 'a':
-            sum += 0.0817
-        if thing == 'b':
-            sum += 0.0149
-        if thing == 'c':
-            sum += 0.0278
-        if thing == 'd':
-            sum += 0.0425
-        if thing == 'e':
-            sum += 0.1270
-        if thing == 'f':
-            sum += 0.0223
-        if thing == 'g':
-            sum += 0.0202
-        if thing == 'h':
-            sum += 0.0609
-        if thing == 'i':
-            sum += 0.0697
-        if thing == 'j':
-            sum += 0.0015
-        if thing == 'k':
-            sum += 0.0077
-        if thing == 'l':
-            sum += 0.0402
-        if thing == 'm':
-            sum += 0.0241
-        if thing == 'n':
-            sum += 0.0675
-        if thing == 'o':
-            sum += 0.0751
-        if thing == 'p':
-            sum += 0.0193
-        if thing == 'q':
-            sum += 0.0009
-        if thing == 'r':
-            sum += 0.0599
-        if thing == 's':
-            sum += 0.0633
-        if thing == 't':
-            sum += 0.0906
-        if thing == 'u':
-            sum += 0.0276
-        if thing == 'v':
-            sum += 0.0098
-        if thing == 'w':
-            sum += 0.0236
-        if thing == 'x':
-            sum += 0.0015
-        if thing == 'y':
-            sum += 0.0197
-        if thing == 'z':
-            sum += 0.0007
+        if thing == 'a': sum += 0.0817
+        if thing == 'b': sum += 0.0149
+        if thing == 'c': sum += 0.0278
+        if thing == 'd': sum += 0.0425
+        if thing == 'e': sum += 0.1270
+        if thing == 'f': sum += 0.0223
+        if thing == 'g': sum += 0.0202
+        if thing == 'h': sum += 0.0609
+        if thing == 'i': sum += 0.0697
+        if thing == 'j': sum += 0.0015
+        if thing == 'k': sum += 0.0077
+        if thing == 'l': sum += 0.0402
+        if thing == 'm': sum += 0.0241
+        if thing == 'n': sum += 0.0675
+        if thing == 'o': sum += 0.0751
+        if thing == 'p': sum += 0.0193
+        if thing == 'q': sum += 0.0009
+        if thing == 'r': sum += 0.0599
+        if thing == 's': sum += 0.0633
+        if thing == 't': sum += 0.0906
+        if thing == 'u': sum += 0.0276
+        if thing == 'v': sum += 0.0098
+        if thing == 'w': sum += 0.0236
+        if thing == 'x': sum += 0.0015
+        if thing == 'y': sum += 0.017
+        if thing == 'z': sum += 0.0007
     return sum
     
 def sentenceTester(encoded):
